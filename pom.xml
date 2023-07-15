@@ -8,7 +8,6 @@
     <artifactId>for_jenkins</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
     <build>
         <plugins>
             <plugin>
@@ -23,7 +22,9 @@
                     <!-- specify the location of the web.xml file -->
                     <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
+
 </project>
